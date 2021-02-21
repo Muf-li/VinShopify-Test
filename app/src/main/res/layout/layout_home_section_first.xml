@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="16dp">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:sliderAnimationDuration="800"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="800"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="-16dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="2dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="@color/colorAccent"
+        app:sliderIndicatorUnselectedColor="@color/colorGrey"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true"/>
+</com.google.android.material.card.MaterialCardView>

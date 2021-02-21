@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VinShopify</string>
+    <string name="title_activity_app">VinShopify</string>
+    <string name="label_see_all">See All</string>
+    <string name="label_featured_products">Featured Products</string>
+    <string name="label_browse_by_category">Browse By Category</string>
+    <string name="title_home">Home</string>
+    <string name="title_request">Request</string>
+    <string name="title_bag">Bag</string>
+    <string name="title_browse">Browse</string>
+    <string name="title_more">More</string>
+</resources>
